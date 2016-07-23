@@ -17,6 +17,8 @@
 		E2C86C4C1D43638F00BD9809 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C4B1D43638F00BD9809 /* SecondViewController.m */; };
 		E2C86C4F1D43727800BD9809 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C4E1D43727800BD9809 /* BlockViewController.m */; };
 		E2C86C551D43764E00BD9809 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C541D43764E00BD9809 /* UIControl+BlocksKit.m */; };
+		E2C86C591D439D4700BD9809 /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C581D439D4700BD9809 /* ArrayViewController.m */; };
+		E2C86C5D1D439E8100BD9809 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C5C1D439E8100BD9809 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		E2C86C531D43764E00BD9809 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
 		E2C86C541D43764E00BD9809 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
 		E2C86C561D43765700BD9809 /* BKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDefines.h; sourceTree = "<group>"; };
+		E2C86C571D439D4700BD9809 /* ArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayViewController.h; sourceTree = "<group>"; };
+		E2C86C581D439D4700BD9809 /* ArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
+		E2C86C5B1D439E8100BD9809 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E2C86C5C1D439E8100BD9809 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +77,21 @@
 		E2C86C2F1D43632D00BD9809 /* Leak */ = {
 			isa = PBXGroup;
 			children = (
-				E2C86C561D43765700BD9809 /* BKDefines.h */,
-				E2C86C531D43764E00BD9809 /* UIControl+BlocksKit.h */,
-				E2C86C541D43764E00BD9809 /* UIControl+BlocksKit.m */,
+				E2C86C5A1D439E5F00BD9809 /* BlocksKit */,
 				E2C86C331D43632D00BD9809 /* AppDelegate.h */,
 				E2C86C341D43632D00BD9809 /* AppDelegate.m */,
 				E2C86C361D43632D00BD9809 /* ViewController.h */,
 				E2C86C371D43632D00BD9809 /* ViewController.m */,
+				E2C86C5B1D439E8100BD9809 /* RootViewController.h */,
+				E2C86C5C1D439E8100BD9809 /* RootViewController.m */,
 				E2C86C471D43638000BD9809 /* FirstViewController.h */,
 				E2C86C481D43638000BD9809 /* FirstViewController.m */,
 				E2C86C4A1D43638F00BD9809 /* SecondViewController.h */,
 				E2C86C4B1D43638F00BD9809 /* SecondViewController.m */,
 				E2C86C4D1D43727800BD9809 /* BlockViewController.h */,
 				E2C86C4E1D43727800BD9809 /* BlockViewController.m */,
+				E2C86C571D439D4700BD9809 /* ArrayViewController.h */,
+				E2C86C581D439D4700BD9809 /* ArrayViewController.m */,
 				E2C86C391D43632D00BD9809 /* Main.storyboard */,
 				E2C86C3C1D43632D00BD9809 /* Assets.xcassets */,
 				E2C86C3E1D43632D00BD9809 /* LaunchScreen.storyboard */,
@@ -99,6 +107,16 @@
 				E2C86C311D43632D00BD9809 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2C86C5A1D439E5F00BD9809 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2C86C561D43765700BD9809 /* BKDefines.h */,
+				E2C86C531D43764E00BD9809 /* UIControl+BlocksKit.h */,
+				E2C86C541D43764E00BD9809 /* UIControl+BlocksKit.m */,
+			);
+			name = BlocksKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +194,9 @@
 				E2C86C4C1D43638F00BD9809 /* SecondViewController.m in Sources */,
 				E2C86C381D43632D00BD9809 /* ViewController.m in Sources */,
 				E2C86C351D43632D00BD9809 /* AppDelegate.m in Sources */,
+				E2C86C5D1D439E8100BD9809 /* RootViewController.m in Sources */,
 				E2C86C321D43632D00BD9809 /* main.m in Sources */,
+				E2C86C591D439D4700BD9809 /* ArrayViewController.m in Sources */,
 				E2C86C491D43638000BD9809 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

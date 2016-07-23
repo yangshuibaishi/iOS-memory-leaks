@@ -8,7 +8,9 @@
 2.block
 在block里边直接使用self 就会造成r循环引用，导致当前类无法释放，在BlockViewController中把weakSelf改为self则当前类就没办法释放了。还要注意的是，如果当前类有其它属性，在block块里也不要直接使用_name类似这种的调用，因为_name 在这里会被编译成self.name。以及成员变量 _petName会被编译成self->_petName;
 
-3.NSArray 可以换成NSHashTable
+3.NSMutableArray 可以换成NSHashTable
+NSMutableArray addObject 会使所添加的对象retainCount加1，而NSHashTable(NSPointerFunctionsWeakMemory)可以避免这个问题
+在SecondViewController里，打开array的注释就可以验证这个问题
 
 4.Notification
 

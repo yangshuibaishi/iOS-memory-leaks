@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"leak";
-    self.dataArray = @[@"FirstViewController",@"BlockViewController"];
+    self.dataArray = @[@"FirstViewController",@"BlockViewController",@"ArrayViewController"];
     [self.view addSubview:self.leakTableView];
 }
 
@@ -46,6 +46,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
     cell.textLabel.text = [self.dataArray objectAtIndex:indexPath.row];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 

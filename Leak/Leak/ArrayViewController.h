@@ -1,5 +1,5 @@
 //
-//  BlockViewController.h
+//  ArrayViewController.h
 //  Leak
 //
 //  Created by quanzhen on 16/7/23.
@@ -8,6 +8,6 @@
 
 #import "RootViewController.h"
 
-@interface BlockViewController : RootViewController
+@interface ArrayViewController : RootViewController
 
 @end

@@ -21,15 +21,9 @@
 
 @implementation BlockViewController
 
-- (void)dealloc
-{
-    NSLog(@"%@ dealloc",[self class]);
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.changeColor];
     self.name = @"BlockViewController";
 }
@@ -51,6 +45,7 @@
             
 //            _name = @"changeColor"; // 会被编译成 self.name      这里可以使用weakSelf.name
 //            _petName = @"dog";      // 会被编译成 self->_petName 这里可以使用weakSelf->_petName
+            
         } forControlEvents:UIControlEventTouchUpInside];
     }
     return _changeColor;
@@ -58,7 +53,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

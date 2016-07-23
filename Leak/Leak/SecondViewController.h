@@ -6,9 +6,9 @@
 //  Copyright © 2016年 baoyan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : RootViewController
 
 @property (weak, nonatomic) UIViewController *viewController;
 

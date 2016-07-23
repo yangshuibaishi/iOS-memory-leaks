@@ -1,26 +1,27 @@
 //
-//  FirstViewController.m
+//  ArrayViewController.m
 //  Leak
 //
 //  Created by quanzhen on 16/7/23.
 //  Copyright © 2016年 baoyan. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ArrayViewController.h"
 #import "SecondViewController.h"
 
-@interface FirstViewController ()
+@interface ArrayViewController ()
 
 @property (strong, nonatomic) UIButton *pushButton;
+
 @property (strong, nonatomic) SecondViewController *secondViewController;
 
 @end
 
-@implementation FirstViewController
+@implementation ArrayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"FirstViewController";
+    self.title = @"ArrayViewController";
     [self.view addSubview:self.pushButton];
 }
 
@@ -29,6 +30,7 @@
     self.secondViewController = [[SecondViewController alloc]init];
     self.secondViewController.viewController = self;
     [self.navigationController pushViewController:self.secondViewController animated:YES];
+    
 }
 
 - (UIButton *)pushButton
@@ -43,10 +45,8 @@
     }
     return _pushButton;
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"leak";
-    self.dataArray = @[@"FirstViewController"];
+    self.dataArray = @[@"FirstViewController",@"BlockViewController"];
     [self.view addSubview:self.leakTableView];
 }
 

@@ -20,7 +20,7 @@
 
 - (void)dealloc
 {
-    NSLog(@"%@",[self class]);
+    NSLog(@"%@ dealloc",[self class]);
 }
 
 - (void)viewDidLoad {

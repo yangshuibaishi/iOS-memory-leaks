@@ -3,7 +3,7 @@
 如果该类没有调用dealloc则证明其没有释放内存 可能存在retain cycle
 
 1.ViewController 强引用
-	在demo（leak），SecondViewController的属性@property (strong, nonatomic) UIViewController *viewController; 为strong时，两个viewController都不会被释放，改为weak则可以被释放。
+在demo（leak），SecondViewController的属性@property (strong, nonatomic) UIViewController *viewController; 为strong时，两个viewController都不会被释放，改为weak则可以被释放。
 
 2.block
 

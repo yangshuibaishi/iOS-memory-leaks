@@ -1,5 +1,5 @@
 //
-//  NotificationViewController.h
+//  KVCViewController.h
 //  Leak
 //
 //  Created by quanzhen on 16/7/23.
@@ -8,6 +8,6 @@
 
 #import "RootViewController.h"
 
-@interface NotificationViewController : RootViewController
+@interface KVCViewController : RootViewController
 
 @end

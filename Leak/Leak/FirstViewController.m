@@ -22,6 +22,7 @@
     [super viewDidLoad];
     self.title = @"FirstViewController";
     [self.view addSubview:self.pushButton];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"noti" object:@"second"];
 }
 
 - (void)pushButtonClicked

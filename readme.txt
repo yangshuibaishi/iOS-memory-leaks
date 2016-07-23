@@ -11,6 +11,5 @@
 3.NSMutableArray 可以换成NSHashTable
 NSMutableArray addObject 会使所添加的对象retainCount加1，而NSHashTable(NSPointerFunctionsWeakMemory)可以避免这个问题，在SecondViewController里，打开array的注释就可以验证这个问题。
 
-4.Notification
-
-5.KVC
+4.KVC
+KVC会使当前对象的retainCount加1，如果不及时remove当前对象的观察，会直接导致程序crash，可以通过注释KVCViewController中的- (void)viewWillDisappear:(BOOL)animated方法来验证。

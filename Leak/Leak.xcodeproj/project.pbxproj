@@ -19,7 +19,7 @@
 		E2C86C551D43764E00BD9809 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C541D43764E00BD9809 /* UIControl+BlocksKit.m */; };
 		E2C86C591D439D4700BD9809 /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C581D439D4700BD9809 /* ArrayViewController.m */; };
 		E2C86C5D1D439E8100BD9809 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C5C1D439E8100BD9809 /* RootViewController.m */; };
-		E2C86C601D43A88200BD9809 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C5F1D43A88200BD9809 /* NotificationViewController.m */; };
+		E2C86C631D43ABCA00BD9809 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C86C621D43ABCA00BD9809 /* KVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		E2C86C581D439D4700BD9809 /* ArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
 		E2C86C5B1D439E8100BD9809 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E2C86C5C1D439E8100BD9809 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E2C86C5E1D43A88200BD9809 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
-		E2C86C5F1D43A88200BD9809 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		E2C86C611D43ABCA00BD9809 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		E2C86C621D43ABCA00BD9809 /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 				E2C86C4E1D43727800BD9809 /* BlockViewController.m */,
 				E2C86C571D439D4700BD9809 /* ArrayViewController.h */,
 				E2C86C581D439D4700BD9809 /* ArrayViewController.m */,
-				E2C86C5E1D43A88200BD9809 /* NotificationViewController.h */,
-				E2C86C5F1D43A88200BD9809 /* NotificationViewController.m */,
+				E2C86C611D43ABCA00BD9809 /* KVCViewController.h */,
+				E2C86C621D43ABCA00BD9809 /* KVCViewController.m */,
 				E2C86C391D43632D00BD9809 /* Main.storyboard */,
 				E2C86C3C1D43632D00BD9809 /* Assets.xcassets */,
 				E2C86C3E1D43632D00BD9809 /* LaunchScreen.storyboard */,
@@ -197,9 +197,9 @@
 				E2C86C551D43764E00BD9809 /* UIControl+BlocksKit.m in Sources */,
 				E2C86C4F1D43727800BD9809 /* BlockViewController.m in Sources */,
 				E2C86C4C1D43638F00BD9809 /* SecondViewController.m in Sources */,
-				E2C86C601D43A88200BD9809 /* NotificationViewController.m in Sources */,
 				E2C86C381D43632D00BD9809 /* ViewController.m in Sources */,
 				E2C86C351D43632D00BD9809 /* AppDelegate.m in Sources */,
+				E2C86C631D43ABCA00BD9809 /* KVCViewController.m in Sources */,
 				E2C86C5D1D439E8100BD9809 /* RootViewController.m in Sources */,
 				E2C86C321D43632D00BD9809 /* main.m in Sources */,
 				E2C86C591D439D4700BD9809 /* ArrayViewController.m in Sources */,
